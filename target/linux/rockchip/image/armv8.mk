@@ -377,12 +377,12 @@ TARGET_DEVICES += panther_x2
 define Device/efused-wxy-oec
   DEVICE_VENDOR := Panther
   DEVICE_MODEL := efused-wxy-oec
-  DEVICE_DTS := rockchip/rk3566-panther-x2
+  DEVICE_DTS := rockchip/rk3566-box-wxy4
   UBOOT_DEVICE_NAME := efused-wxy-oec-rk3566
   IMAGE/sysupgrade.img.gz := boot-common | boot-script | pine64-img | gzip | append-metadata
-  DEVICE_PACKAGES := kmod-brcmfmac kmod-ikconfig brcmfmac-nvram-43430-sdio wpad-openssl
+  DEVICE_PACKAGES := kmod-ikconfig
 endef
-TARGET_DEVICES += panther_x2
+TARGET_DEVICES += efused-wxy-oec
 
 
 define Device/pine64_rockpro64
