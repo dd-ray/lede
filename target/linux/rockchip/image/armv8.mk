@@ -375,8 +375,8 @@ endef
 TARGET_DEVICES += panther_x2
 
 define Device/efused-wxy-oec
-  DEVICE_VENDOR := Panther
-  DEVICE_MODEL := efused-wxy-oec
+  DEVICE_VENDOR := Efused-Wxy
+  DEVICE_MODEL := oec
   DEVICE_DTS := rockchip/rk3566-box-wxy4
   UBOOT_DEVICE_NAME := efused-wxy-oec-rk3566
   IMAGE/sysupgrade.img.gz := boot-common | boot-script | pine64-img | gzip | append-metadata
