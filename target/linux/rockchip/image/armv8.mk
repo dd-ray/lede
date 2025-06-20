@@ -379,7 +379,7 @@ define Device/efused-wxy-oec
   DEVICE_MODEL := oec
   DEVICE_DTS := rockchip/rk3566-box-wxy4
   UBOOT_DEVICE_NAME := efused-wxy-oec-rk3566
-  IMAGE/sysupgrade.img.gz := boot-common | boot-script | pine64-img | gzip | append-metadata
+  IMAGE/sysupgrade.img.gz := boot-common | boot-script | gzip | append-metadata
   DEVICE_PACKAGES := kmod-ikconfig
 endef
 TARGET_DEVICES += efused-wxy-oec
