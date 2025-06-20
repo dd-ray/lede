@@ -239,7 +239,7 @@ define U-Boot/efused-wxy-oec-rk3566
   $(U-Boot/rk3566/Default)
   NAME:=Efused-Wxy OEC
   BUILD_DEVICES:= \
-    efused-wxy-oec
+    panther_x2
 endef
 
 define U-Boot/rock-3c-rk3566
